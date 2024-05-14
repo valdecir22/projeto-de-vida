@@ -1,0 +1,93 @@
+body{
+    background-color: #000000;
+    color: #e9e9e9;
+    font-family: "Chakra Petch", sans-serif;
+ }
+ .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .titulo{
+    text-align: left;
+    width: 100%;
+    font-size: 30%px;
+  }
+ .titulo span{
+    color: #ffffff;
+ }
+ .botao{
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #140952;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 13px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-top: none;
+ }
+ .botao:first-child{
+       border-radius: 40px 40px 0px 0px;
+ }
+ .botoes{
+    display: block;
+ }
+ .botao.ativo{
+    background-color: #f0eeee;
+    border-bottom:4px solid #06335ecb;
+    color: #260644;
+ }
+ .abas{
+    background-color: #6500a0;
+    padding: 40px;
+    text-align: center;
+    border-radius:0 0 40px 40px;
+ }
+ .tempo{
+    color: rgb(0, 0, 0);
+ }
+ .texto-titulo{
+    font-size: 30px;
+ }
+ .texto-titulo{
+    display: block;
+ }
+ .textos.ativo{
+   display: block;
+ }
+ .textos{
+   display: none;
+   justify-content:center ;
+ }
+ .contador-digito{
+   display: flex;
+   justify-content: center;
+ }
+ .contador{
+   font-size: 20px;
+   margin: 0%;
+   flex-wrap: wrap;
+ }
+ .contador-numero{
+
+ }
+ @media screen and (min-width:798px) { }
+     .botoes{
+        display: flex;
+      
+     }
+     .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+ .botao:last-child {
+   border-radius: 0 40px  0 0;
+ }
+ 
